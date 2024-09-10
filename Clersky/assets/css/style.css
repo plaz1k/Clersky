@@ -1,0 +1,230 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: #163A24;
+    color: #FBFAF7;
+    font: 16px "Noto Sans", sans-serif;
+    height: 98px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1220px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__link {
+    color: #FBFAF7;
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.btn {
+    background: #198C36;
+    padding: 15px 25px;
+    border-radius: 160px;
+    color: #FBFAF7;
+    font-weight: bold;
+}
+
+.first-section {
+    background: #163A24 url(../img/men.svg) no-repeat right / contain;
+    height: 90vh;
+    padding-top: 120px;
+}
+
+.first-section__text-block {
+    color: #FBFAF7;
+    max-width: 475px;
+    padding-top: 120px;
+}
+
+.section__title {
+    font: bold 48px/1 'Recoleta', sans-serif;
+}
+
+.section__sub-title {
+    font: 18px/1.5 "Noto Sans", sans-serif;
+    padding-top: 18px;
+}
+
+.second-section {
+    margin-top: 120px;
+    color: #163A24;
+}
+
+.second-section__info-block {
+    display: flex;
+    gap: 100px;
+    height: 510px;
+}
+
+.second-section__text-block {
+    padding: 150px 0;
+    max-width: 400px;
+}
+
+.second-section__block-title {
+    font: bold 48px/1.125 'Recoleta', sans-serif;
+    padding-bottom: 30px;
+}
+
+.second-section__block-sub-title {
+    font: 18px/1.5 "Noto Sans", sans-serif;
+}
+
+.second-section__partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    height: 293px;
+}
+
+.third-section {
+    background: #163A24;
+    color: #FBFAF7;
+    display: flex;
+    align-items: center;
+}
+
+.third-section__block-title {
+    font: bold 48px/1.125 'Recoleta', sans-serif;
+    padding-top: 66px;
+}
+
+.third-section__icons-block {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 75px;
+    height: 328px;
+    font: 16px "Noto Sans", sans-serif;
+}
+
+.third-section__icon {
+    padding-bottom: 30px;
+}
+
+.fourth-section {
+    background: #F2EFE6;
+    height: 775px;
+}
+
+.fourth-section__wrapper {
+    padding: 120px 0;
+}
+
+.fourth-section__text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    text-align: center;
+    color: #163A24;
+}
+
+.fourth-section__title {
+    font: bold 48px/1.125 'Recoleta', sans-serif;
+    max-width: 740px;
+    padding-bottom: 26px;
+}
+
+.fourth-section__sub-title {
+    font: 18px/1.5 "Noto Sans", sans-serif;
+    max-width: 770px;
+}
+
+.fifth-section__wrapper {
+    padding-top: 180px;
+}
+
+.fifth-section__scenes-info {
+    display: flex;
+    padding-bottom: 120px;
+}
+
+.fifth-section__scenes-text-block {
+    color: #163A24;
+    max-width: 395px;
+    padding: 100px;
+}
+
+.fifth-section__scenes-title {
+    font: bold 48px/1.125 'Recoleta', sans-serif;
+    padding-bottom: 30px;
+    line-height: 54px;
+}
+
+.fifth-section__scenes-sub-title{
+    font: 18px/1.5 "Noto Sans", sans-serif;
+}
+
+.footer__main-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+    padding-bottom: 20px;
+}
+
+.footer__text {
+    font: bold 24px/1.5 'Recoleta', sans-serif;
+    color: #163A24;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 14px;
+}
+
+.footer__divider {
+    border-color: #F2EFE6;
+    margin-bottom: 10px;
+}
+
+.footer__text-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__company-info {
+    font: 14px/1.5 sans-serif;
+}
+
+.footer__links a {
+    margin-right: 14px;
+    color: #163A24;
+    text-decoration: none;
+}
+
+.man-wom{
+    background: url(../img/man-and-women.png) no-repeat right / contain;
+    width: 492px;
+    height: 423px;
+    padding-top: -0.13;
+    padding-left: 590px;
+}
